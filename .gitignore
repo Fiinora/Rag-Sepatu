@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+.venv/
+.rag-env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Data RAG & Hashes
+file_hashes.json
+*.db
+chroma/
+
+readme.md
