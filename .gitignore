@@ -7,9 +7,16 @@ venv/
 __pycache__/
 *.pyc
 
+# Environment & Config
+.env
+.env.*
+
 # Data RAG & Hashes
 file_hashes.json
+hashes_*.json
+last_project.txt
 *.db
+*.sqlite3
 chroma/
 
 readme.md
